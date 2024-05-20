@@ -1,0 +1,18 @@
+/* hoverStyles.css */
+
+.glassCard {
+    /* Add transition for smooth hover effect */
+    transition: transform 0.3s ease;
+  }
+
+  /* Define hover styles for the card */
+  .glassCard:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+  }
+
+  /* Additional hover styles for specific elements inside the card */
+  .glassCard:hover .bg--500,
+  .glassCard:hover .bg-white-500 {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #000000; /* Change text color on hover */
+  }
